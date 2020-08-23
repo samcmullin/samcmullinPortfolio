@@ -1,0 +1,70 @@
+// Debugging style
+// * { border: 1px solid red; }
+
+// Font awesome
+// <i class="fab fa-github"></i>
+// <i class="fab fa-twitter"></i>
+// <i class="fab fa-linkedin-in"></i>
+// <i class="fas fa-envelope"></i>
+// <i class="fab fa-html5"></i>
+// <i class="fab fa-css3-alt"></i>
+// <i class="fab fa-react"></i>
+// <i class="fab fa-js"></i>
+// <i class="fab fa-github"></i>
+// <i class="fab fa-sass"></i>
+// <i class="fas fa-universal-access"></i> // accessibility
+// <i class="devicons devicons-jquery"></i> 
+// <i class="devicons devicons-firebase"></i>
+// <i class="devicons devicons-responsive"></i>
+// <span aria-hidden="true" class="devicons devicons-linux" title="Linux"></span>
+// <p>Linux</p>
+
+.wrapper {
+    max-width: 1440px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.skipLink {
+    position: absolute;
+    left: -1000px;
+    top: 5px;
+    z-index: 999;
+    background: white;
+    color: black;
+}
+
+.skipLink:focus {
+    left: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+h1,
+h2,
+p,
+ul,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+
+    li {
+        display: inline;
+    }
+}
+
+body {
+    font-family: $bodyFont;
+    color: $mainBodyTextColor;
+}
