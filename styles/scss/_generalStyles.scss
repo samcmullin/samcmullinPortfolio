@@ -18,6 +18,7 @@
 // <i class="devicons devicons-responsive"></i>
 // <span aria-hidden="true" class="devicons devicons-linux" title="Linux"></span>
 // <p>Linux</p>
+// <span aria-hidden="true" class="material-icons">settings_ethernet</span>
 
 .wrapper {
     max-width: 1440px;
@@ -49,18 +50,23 @@ img {
 
 h1,
 h2,
+h3,
 p,
-ul,
-a {
+ul {
     margin: 0;
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 ul {
     list-style: none;
+    font-family: $headerFont;
 
     li {
-        display: inline;
+        letter-spacing: 1.4px;
     }
 }
 
@@ -68,3 +74,24 @@ body {
     font-family: $bodyFont;
     color: $mainBodyTextColor;
 }
+
+h1 {
+    font-family: $headerFont;
+    font-size: 7rem;
+}
+
+h2 {
+    font-family: $headerFont;
+    font-size: 4rem;
+}
+
+h3 {
+    font-family: $headerFont;
+    font-size: 3.5rem;
+}
+
+p {
+    font-size: 1.7rem;
+}
+
+

@@ -1,0 +1,16 @@
+.aboutContainer {
+    display: flex;
+    margin-top: 50px;
+    .aboutImage {
+        width: 25%;
+    }
+
+    .aboutInfo {
+        margin-left: 50px;
+        width: 75%;
+        p {
+            margin-top: 20px;
+            padding-left: 30px;
+        }
+    }
+}
