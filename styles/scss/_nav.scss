@@ -1,3 +1,7 @@
+/****************************
+* Nav Section Styles
+****************************/
+
 .siteTitle {
     height: 10vh;
     display: flex;
@@ -10,15 +14,15 @@
         display: inline;
         
         a {
-            transition: color 0.7s ease-in-out;
+            transition: color 0.3s ease-in-out;
             padding: 15px;
             &:hover,
             &:focus {
-                -webkit-transition: color 0.7s ease-in-out;
-                -moz-transition: color 0.7s ease-in-out;
-                -o-transition: color 0.7s ease-in-out;
-                -ms-transition: color 0.7s ease-in-out;
-                transition: color 0.7s ease-in-out;
+                -webkit-transition: color 0.3s ease-in-out;
+                -moz-transition: color 0.3s ease-in-out;
+                -o-transition: color 0.3s ease-in-out;
+                -ms-transition: color 0.3s ease-in-out;
+                transition: color 0.3s ease-in-out;
                 color:#D64933;
             }  
         }

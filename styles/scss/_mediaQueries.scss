@@ -1,3 +1,9 @@
+/****************************
+* Footer Section Styles
+****************************/
+
+/* Small desktop/tablet breakpoint */
+
 @media (max-width: 1024px) {
     h1 {
         font-size: 5.5rem;
@@ -5,10 +11,6 @@
     
     h2 {
         font-size: 3rem;
-    }
-    
-    h3 {
-        font-size: 2.5rem;
     }
     
     p {
@@ -25,6 +27,8 @@
         }
     }
 }
+
+/* tablet breakpoint */
 
 @media (max-width: 768px) {
 
@@ -69,13 +73,20 @@
     }
 }
 
+/* phone breakpoint */
+
 @media (max-width: 500px) {
+    .skillsIcons .icon {
+        margin: 2%;
+        width: calc((100%/2) - 4%);    
+    }
+
     .siteTitle {
         flex-direction: column;
         text-align: center;
-        
+
         li {
-            display: block;
+            display: inline;
             margin-top: 15px;
         }
 

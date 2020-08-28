@@ -1,3 +1,7 @@
+/****************************
+* About Section Styles
+****************************/
+
 .aboutContainer {
     display: flex;
     margin: 50px 0;
@@ -5,6 +9,10 @@
     
     .aboutImage {
         width: 25%;
+        border-radius: 10px;
+        -webkit-box-shadow: 3px 3px 5px 6px #ccc; 
+        -moz-box-shadow: 3px 3px 5px 6px #ccc;
+        box-shadow: 3px 3px 5px #ccc;
         img {
             border-radius: 10px;
         }
@@ -20,6 +28,9 @@
     }
 }
 
+/****************************
+* Skills Section Styles
+****************************/
 .skillSet {
     background-color: #D64933;
     color: #fff;
@@ -34,14 +45,28 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
+    .icon {
+        padding-bottom: 30px;
+        text-align: center;
+        margin: 2%;
+        width: calc((100%/4) - 4%);
+    }
 
     span {
         font-size: 5rem;
         text-align: center;
-        margin: 20px 30px 50px 0;
+    }
+
+    p {
+        margin-top: 10px;
     }
     
 }
+
+/****************************
+*  Work Section Styles
+****************************/
 
 .myWork {
     margin-top: 30px;
@@ -49,7 +74,6 @@
     .card {
         display: flex;
         padding: 25px 0;
-        
 
         .portfolioImage {
             width: 100%;
@@ -80,15 +104,14 @@
                     border: 1px solid black;
                     padding: 10px 15px;
                     border-radius: 5px;
-                    transition: all 0.7s ease-in-out;
-
+                    transition: all 0.3s ease-in-out;
                     &:hover,
                     &:focus {
-                        -webkit-transition: all 0.7s ease-in-out;
-                        -moz-transition: all 0.7s ease-in-out;
-                        -o-transition: all 0.7s ease-in-out;
-                        -ms-transition: all 0.7s ease-in-out;
-                        transition: all 0.7s ease-in-out;
+                        -webkit-transition: all 0.3s ease-in-out;
+                        -moz-transition: all 0.3s ease-in-out;
+                        -o-transition: all 0.3s ease-in-out;
+                        -ms-transition: all 0.3s ease-in-out;
+                        transition: all 0.3s ease-in-out;
                         background-color:#D64933;
                         border: 1px solid #D64933;
                     }  
@@ -98,19 +121,20 @@
     }
 }
 
+/****************************
+* Contact Section Styles
+****************************/
+
 .contactMe {
     background-color: rgb(236, 236, 236);
     padding: 50px 0;
-    text-align: center;
-
 }
 
 form {
-    padding: 30px 100px;
+    padding: 30px 0;
     display: flex;
     flex-wrap: wrap;
-    // flex: 1 1 50%;
-    
+    text-align: center;
     .nameInput,
     .emailInput {
         width: calc(50% - 10px);
@@ -158,11 +182,15 @@ form {
     border: 2px solid black;
     font-size: 2rem;
     border-radius: 10px;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3 ease-in-out;
 
     &:hover,
     &:focus {
-        transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
         background-color: #D64933;
         border: 2px solid #D64933;
     }

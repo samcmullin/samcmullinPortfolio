@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Made By Stephen</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="styles/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/devicons@1.8.0/css/devicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" > -->
     <script src="https://kit.fontawesome.com/6eb9b72fe3.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
     <a href="#mainContent" class="skipLink">Skip to main content.</a>
-    <header id="#">
+    <header id="home">
         <div class="wrapper">
             <nav class="siteTitle">
                 
                 <h3>sm.</h3>
                 
                 <ul>
-                    <li><a href="#">hello</a></li>
                     <li><a href="#about">about</a></li>
                     <li><a href="#skills">skills</a></li>
                     <li><a href="#work">work</a></li>
@@ -45,7 +47,7 @@
             <div class="aboutContainer">
 
                 <div class="aboutImage" data-aos="fade-right">
-                    <img src=https://www.placecage.com/c/300/300 alt="">
+                    <img src="assets/images/stephen.jpg" alt="Photo of Stephen McMullin">
                 </div>
                 <div class="aboutInfo" data-aos="fade-left">
                     <h2>Hi, I'm Stephen!</h2>
@@ -62,18 +64,42 @@
                 
                 <div class="skillsIcons" data-aos="fade-up">
 
-                    <span aria-hidden="true" class="fab fa-html5"><p>HTML5</p></span>
-                    <span aria-hidden="true" class="fab fa-css3-alt"><p>CSS3</p></span>
-                    <span aria-hidden="true" class="fas fa-code-branch"><p>REST API</p></span>
-                    <span aria-hidden="true" class="fab fa-react"><p>React</p></span>
-                    <span aria-hidden="true" class="fab fa-js"><p>Javascript</p></span>
-                    <span aria-hidden="true" class="fab fa-github"><p>GitHub</p></span>
-                    <span aria-hidden="true" class="fab fa-sass"><p>SASS</p></span>
-                    <span aria-hidden="true" class="fas fa-universal-access"><p>Accessibility</p></span>
-                    <span aria-hidden="true" class="devicons devicons-jquery"><p>Jquery</p></span> 
-                    <span aria-hidden="true" class="devicons devicons-firebase"><p>Firebase</p></span>
-                    <span aria-hidden="true" class="devicons devicons-responsive"><p>Responsive</p></span>
-                    <span aria-hidden="true" class="devicons devicons-linux" title="Linux"><p>Linux</p></span>
+                    <div class="icon">
+                        <span aria-hidden="true" class="fab fa-react"><p>React</p></span>
+                    </div>
+                    <div class="icon">
+                        <span aria-hidden="true" class="fab fa-js"><p>Javascript</p></span>
+                    </div>
+                    <div class="icon">
+                        <span aria-hidden="true" class="fab fa-html5"><p>HTML5</p></span>
+                    </div>
+                    <div class="icon">
+                        <span aria-hidden="true" class="fab fa-css3-alt"><p>CSS3</p></span>
+                    </div>
+                    <div class="icon">
+                        <span aria-hidden="true" class="fab fa-sass"><p>SASS</p></span>
+                    </div>
+                    <div class="icon">
+                        <span aria-hidden="true" class="fas fa-code-branch"><p>REST API</p></span>
+                    </div>
+                    <div class="icon">
+                        <span aria-hidden="true" class="fab fa-github"><p>GitHub</p></span>
+                    </div>
+                    <div class="icon">
+                        <span aria-hidden="true" class="fas fa-universal-access"><p>Accessibility</p></span>
+                    </div>
+                    <div class="icon">
+                        <span aria-hidden="true" class="devicons devicons-jquery"><p>Jquery</p></span>
+                    </div>
+                    <div class="icon">
+                        <span aria-hidden="true" class="devicons devicons-firebase"><p>Firebase</p></span>
+                    </div>
+                    <div class="icon">
+                        <span aria-hidden="true" class="devicons devicons-responsive"><p>Responsive</p></span>
+                    </div>
+                    <div class="icon">
+                        <span aria-hidden="true" class="devicons devicons-linux" title="Linux"><p>Linux</p></span>
+                    </div>
                 </div>
             </div>
 
@@ -84,7 +110,7 @@
 
             <div class="card" data-aos="fade-up">
                 <div class="portfolioImage">
-                    <img src="assets/images/p5-the-news-inquiry-app.png" alt="Project five screenshot of the news inquiry app">
+                    <img src="assets/images/projectFiveNewsInquiry.jpg" alt="Project five screenshot of the news inquiry app">
                 </div>
                 <div class="portfolioDescription">
                     <h2>The News Inquiry Box</h2>
@@ -101,7 +127,7 @@
 
             <div class="card" data-aos="fade-up">
                 <div class="portfolioImage">
-                    <img src="assets/images/p4-its-cocktail-time.png" alt="Project four screenshot of it's cocktail time">
+                    <img src="assets/images/projectFourCocktailTime.jpg" alt="Project four screenshot of it's cocktail time">
                 </div>
                 <div class="portfolioDescription">
                     <h2>It's Cocktail Time! </h2>
@@ -109,14 +135,14 @@
                     <p>Looking for a random cocktail? It's Cocktail Time was built in collaboration with a partner and an API/Ajax call is made to a cocktail database based on the user's selection of alcohol type.  Once the API call is complete, the drinks are stored in an array of objects, and a random drink will be displayed to the user based on their alcohol choice!</p>
                     <div class="projectLinks">
                         <a href="https://github.com/ItsCocktailTime/stephenMcMullinRyanShaoProjectFour" target="_blank">GITHUB</a>
-                        <a href="http://madebystephen.ca/stephenMcMullinRyanShaoProjectFour/" target="_blank">LIVE</a>
+                        <a href="https://madebystephen.ca/stephenMcMullinRyanShaoProjectFour/" target="_blank">LIVE</a>
                     </div>
                 </div>
             </div>
 
             <div class="card" data-aos="fade-up">
                 <div class="portfolioImage">
-                    <img src="assets/images/p3-slideshow.png" alt="Project three slideshow app screenshot">
+                    <img src="assets/images/projectThreeSlideshow.jpg" alt="Project three slideshow app screenshot">
                 </div>
                 <div class="portfolioDescription">
                     <h2>Load Slideshow</h2>
@@ -124,14 +150,14 @@
                     <p>This slideshow was built using Jquery.  The user can select a type of slide show they want to view, and once selected the images will load from an array of objects and display to the user.</p>
                     <div class="projectLinks">
                         <a href="https://github.com/samcmullin/stephenMcMullinProjectThree" target="_blank">GITHUB</a>
-                        <a href="http://madebystephen.ca/stephenMcMullinProjectThree/" target="_blank">LIVE</a>
+                        <a href="https://madebystephen.ca/stephenMcMullinProjectThree/" target="_blank">LIVE</a>
                     </div>
                 </div>
             </div>
 
             <div class="card" data-aos="fade-up">
                 <div class="portfolioImage">
-                    <img src="assets/images/p2-sanctuary-helpers.png" alt="Project two screenshot of a responsive psd conversion web site">
+                    <img src="assets/images/projectTwoSanctuary.jpg" alt="Project two screenshot of a responsive psd conversion web site">
                 </div>
                 <div class="portfolioDescription">
                     <h2>Sanctuary Helpers</h2>
@@ -139,7 +165,7 @@
                     <p>A PSD conversion using HTML and SASS following a style guide.</p>
                     <div class="projectLinks">
                         <a href="https://github.com/samcmullin/stephenMcMullinProjectTwo" target="_blank">GITHUB</a>
-                        <a href="http://madebystephen.ca/stephenMcMullinProjectTwo/" target="_blank">LIVE</a>
+                        <a href="https://madebystephen.ca/stephenMcMullinProjectTwo/" target="_blank">LIVE</a>
                     </div>
                 </div>
             </div>
@@ -148,7 +174,7 @@
         <section class="contactMe" id="contact">
             <div class="wrapper">
                 <div class="contactFormContainer" data-aos="fade-up">
-                    <h2>Let's Talk!</h2>
+                    <h1>let's talk.</h1>
 
                     <form id="contactForm" action="https://formspree.io/xeqrwydz" method="POST">
                         <label for="nameInput" class="srOnly"></label>
@@ -172,11 +198,11 @@
         <div class="wrapper">
             <div class="contactContainer">
                 <div class="footerLinks">
-                    <!-- <h3>sm.</h3> -->
                     <ul>
-                        <li><a href="#">home</a></li>
-                        <li><a href="#work">work</a></li>
+                        <li><a href="#home">home</a></li>
                         <li><a href="#about">about</a></li>
+                        <li><a href="#skills">skills</a></li>
+                        <li><a href="#work">work</a></li>
                     </ul>
                 </div>
                 <ul>
