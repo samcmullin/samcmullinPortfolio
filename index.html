@@ -16,13 +16,17 @@
 
 </head>
 <body>
-    <a href="#mainContent" class="skipLink">Skip to main content.</a>
+    <!-- Accessibility skipLink link -->
+    <a href="#mainContent" class="skipLink">Skip to main content.</a> 
+
+    <!-- BEGIN header -->
     <header id="home">
+        <!-- BEGIN wrapper -->
         <div class="wrapper">
+            <!-- BEGIN nav -->
             <nav class="siteTitle">
-                
+
                 <h3>sm.</h3>
-                
                 <ul>
                     <li><a href="#about">about</a></li>
                     <li><a href="#skills">skills</a></li>
@@ -31,39 +35,51 @@
                 </ul>
                 
             </nav>
-            <div class="headerContent">
-                
-                <h1 data-aos="fade-left" data-aos-duration="1000">Stephen McMullin</h1> 
+            <!-- END nav-->
 
+            <div class="headerContent">
+                <h1 data-aos="fade-left" data-aos-duration="1000">Stephen McMullin</h1> 
                 <h2 data-aos="fade-right" data-aos-duration="1000">Web Developer</h2>
-                
             </div>
+        <!-- END wrapper -->    
         </div>
+    <!-- END header -->
     </header>
 
+    <!-- BEGIN main -->
     <main id="mainContent">
+        <!-- BEGIN wrapper and section about me -->
         <section class="wrapper aboutMe" id="about">
+
             <h1 data-aos="fade-right">about me.</h1>
             <div class="aboutContainer">
 
+                <!-- about image container -->
                 <div class="aboutImage" data-aos="fade-right">
                     <img src="assets/images/stephen.jpg" alt="Photo of Stephen McMullin">
                 </div>
+
+                <!-- about info container -->
                 <div class="aboutInfo" data-aos="fade-left">
                     <h2>Hi, I'm Stephen!</h2>
                     <p>I am a creative Front End Developer with an entrepreneurial spirit dedicated to developing accessible, responsive and user-friendly websites. With strong communication skills, experience collaborating with developers, and a growth mindset, I thrive in fast-paced environments and love writing clean and reusable code.</p>
                 </div>
+
             </div>
+        <!-- END wrapper and section about me -->
         </section>
         
+        <!-- BEGIN section skills -->
         <section class="skillSet" id="skills">
+            <!-- BEGIN wrapper -->
             <div class="wrapper">
+
                 <div>
                     <h1 data-aos="fade-right">skills.</h1>
                 </div>
                 
+                <!-- skill icon container -->
                 <div class="skillsIcons" data-aos="fade-up">
-
                     <div class="icon">
                         <span aria-hidden="true" class="fab fa-react"><p>React</p></span>
                     </div>
@@ -101,17 +117,24 @@
                         <span aria-hidden="true" class="devicons devicons-linux" title="Linux"><p>Linux</p></span>
                     </div>
                 </div>
+
             </div>
 
+        <!-- END section skills -->
         </section>
 
+        <!-- BEGIN wrapper and section portfolio -->
         <section class="wrapper myWork" id="work">
             <h1 data-aos="fade-right">my work.</h1>
 
+            <!-- container for portfolio item -->
             <div class="card" data-aos="fade-up">
+                <!-- portfolio image container -->
                 <div class="portfolioImage">
                     <img src="assets/images/projectFiveNewsInquiry.jpg" alt="Project five screenshot of the news inquiry app">
                 </div>
+
+                <!-- portfolio description container -->
                 <div class="portfolioDescription">
                     <h2>The News Inquiry Box</h2>
                     <p>REACT | JAVASCRIPT | SASS | NEWS API</p>
@@ -122,60 +145,84 @@
                         
                         <a href="https://samcmullin.github.io/stephenMcMullinProjectFive/" target="_blank">LIVE</a>
                     </div>
+
                 </div>
             </div>
 
+            <!-- container for portfolio item -->
             <div class="card" data-aos="fade-up">
+                <!-- portfolio image container -->
                 <div class="portfolioImage">
                     <img src="assets/images/projectFourCocktailTime.jpg" alt="Project four screenshot of it's cocktail time">
                 </div>
+
+                <!-- portfolio description container -->
                 <div class="portfolioDescription">
                     <h2>It's Cocktail Time! </h2>
                     <p>JQUERY | JAVASCRIPT | SASS | COCKTAIL API</p>
                     <p>Looking for a random cocktail? It's Cocktail Time was built in collaboration with a partner and an API/Ajax call is made to a cocktail database based on the user's selection of alcohol type.  Once the API call is complete, the drinks are stored in an array of objects, and a random drink will be displayed to the user based on their alcohol choice!</p>
+
                     <div class="projectLinks">
                         <a href="https://github.com/ItsCocktailTime/stephenMcMullinRyanShaoProjectFour" target="_blank">GITHUB</a>
                         <a href="https://madebystephen.ca/stephenMcMullinRyanShaoProjectFour/" target="_blank">LIVE</a>
                     </div>
+
                 </div>
             </div>
 
+            <!-- container for portfolio item -->
             <div class="card" data-aos="fade-up">
+                <!-- portfolio image container -->
                 <div class="portfolioImage">
                     <img src="assets/images/projectThreeSlideshow.jpg" alt="Project three slideshow app screenshot">
                 </div>
+
+                <!-- portfolio description container -->
                 <div class="portfolioDescription">
                     <h2>Load Slideshow</h2>
                     <p>JQUERY | JAVASCRIPT | SASS</p>
                     <p>This slideshow was built using Jquery.  The user can select a type of slide show they want to view, and once selected the images will load from an array of objects and display to the user.</p>
+
                     <div class="projectLinks">
                         <a href="https://github.com/samcmullin/stephenMcMullinProjectThree" target="_blank">GITHUB</a>
                         <a href="https://madebystephen.ca/stephenMcMullinProjectThree/" target="_blank">LIVE</a>
                     </div>
+
                 </div>
             </div>
 
+            <!-- container for portfolio item -->
             <div class="card" data-aos="fade-up">
+                <!-- portfolio image container -->
                 <div class="portfolioImage">
                     <img src="assets/images/projectTwoSanctuary.jpg" alt="Project two screenshot of a responsive psd conversion web site">
                 </div>
+
+                <!-- portfolio description container -->
                 <div class="portfolioDescription">
                     <h2>Sanctuary Helpers</h2>
                     <p>HTML5 | SASS</p>
                     <p>A PSD conversion using HTML and SASS following a style guide.</p>
+
                     <div class="projectLinks">
                         <a href="https://github.com/samcmullin/stephenMcMullinProjectTwo" target="_blank">GITHUB</a>
                         <a href="https://madebystephen.ca/stephenMcMullinProjectTwo/" target="_blank">LIVE</a>
                     </div>
                 </div>
             </div>
+        <!-- END wrapper and section portfolio -->
         </section>
 
+        <!-- BEGIN section contact me -->
         <section class="contactMe" id="contact">
+            <!-- BEGIN wrapper -->
             <div class="wrapper">
+
+                <!-- contact form container -->
                 <div class="contactFormContainer" data-aos="fade-up">
                     <h1>let's talk.</h1>
 
+                    <!-- form container for formspree -->
                     <form id="contactForm" action="https://formspree.io/xeqrwydz" method="POST">
                         <label for="nameInput" class="srOnly"></label>
                         <input type="text" id="nameInput" name="nameInput" class="nameInput" required placeholder="Name*"/>
@@ -190,11 +237,15 @@
                     <button type="submit" class="sendForm" target="_blank" form="contactForm">SEND</button>
                 
                 </div> 
+            <!-- END wrapper -->
             </div>
+        <!-- END section contact me -->
         </section>
     </main>
 
+    <!-- BEGIN footer -->
     <footer>
+        <!-- BEGIN wrapper -->
         <div class="wrapper">
             <div class="contactContainer">
                 <div class="footerLinks">
@@ -213,14 +264,18 @@
                 </ul>
             </div>
             <p>&copy; 2020 Stephen McMullin</p>
+        <!-- END wrapper-->
         </div>
+    <!-- END footer -->
     </footer>
 
+    <!-- LOAD jquery 3.4.0 -->
     <script src='https://code.jquery.com/jquery-3.4.0.min.js' integrity='sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=' crossorigin='anonymous'></script>
-
+    <!-- LOAD personal script.js -->
     <script src="assets/scripts/script.js"></script>
-    
+    <!-- LOAD AOS (animate on scroll) script -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- INITIALIZE AOS script -->
     <script>
         AOS.init();
     </script>
