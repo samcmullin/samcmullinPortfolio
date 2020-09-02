@@ -3,6 +3,7 @@
 ****************************/
 
 .aboutContainer {
+    background-color: $aboutColor;
     display: flex;
     margin: 50px 0;
     align-items: center;
@@ -32,7 +33,7 @@
 * Skills Section Styles
 ****************************/
 .skillSet {
-    background-color: #D64933;
+    background-color: $skillsColor;
     color: #fff;
     
     h1 {
@@ -69,8 +70,9 @@
 ****************************/
 
 .myWork {
+    background-color: $workColor;
     margin-top: 30px;
-
+    
     .card {
         display: flex;
         padding: 25px 0;
@@ -126,7 +128,7 @@
 ****************************/
 
 .contactMe {
-    background-color: rgb(236, 236, 236);
+    background-color: $contactColor;
     padding: 50px 0;
 }
 
@@ -194,4 +196,29 @@ form {
         background-color: #D64933;
         border: 2px solid #D64933;
     }
+}
+
+.calendlyContainer {
+    margin-top: 50px;
+
+    h2 {
+        margin-bottom: 30px;
+    }
+    
+    span {
+        color: black;
+        font-size: 10rem;
+        transition: color 0.3s ease-in-out;
+
+        &:hover,
+        &:focus {
+            -webkit-transition: color 0.3s ease-in-out;
+            -moz-transition: color 0.3s ease-in-out;
+            -o-transition: color 0.3s ease-in-out;
+            -ms-transition: color 0.3s ease-in-out;
+            transition: color 0.3s ease-in-out;
+            color: #D64933;
+        }
+    }
+
 }

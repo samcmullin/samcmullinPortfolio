@@ -233,6 +233,10 @@ html {
 * SCSS Variables
 ****************************/
 /* Color Variables */
+/* Text Colors */
+/***************/
+/* Background Section Colors */
+/***************/
 /* Font Variables */
 /* web site wrapper */
 .wrapper {
@@ -330,6 +334,7 @@ p {
 ****************************/
 header {
   height: 100vh;
+  background-color: #fff;
 }
 
 header .headerContent {
@@ -396,6 +401,7 @@ header .headerContent p {
 * About Section Styles
 ****************************/
 .aboutContainer {
+  background-color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -470,6 +476,7 @@ header .headerContent p {
 *  Work Section Styles
 ****************************/
 .myWork {
+  background-color: #fff;
   margin-top: 30px;
 }
 
@@ -527,7 +534,7 @@ header .headerContent p {
 * Contact Section Styles
 ****************************/
 .contactMe {
-  background-color: #ececec;
+  background-color: #ECECEC;
   padding: 50px 0;
 }
 
@@ -593,6 +600,27 @@ form input[type=text]:focus, form textarea:focus {
   transition: all 0.3s ease-in-out;
   background-color: #D64933;
   border: 2px solid #D64933;
+}
+
+.calendlyContainer {
+  margin-top: 50px;
+}
+
+.calendlyContainer h2 {
+  margin-bottom: 30px;
+}
+
+.calendlyContainer span {
+  color: black;
+  font-size: 10rem;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+.calendlyContainer span:hover, .calendlyContainer span:focus {
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+  color: #D64933;
 }
 
 /****************************
