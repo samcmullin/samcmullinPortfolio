@@ -12,6 +12,7 @@ $(function() {
     
 })
 
+// function that toggles the hamburger menu to open and close
 function toggleClass() {
     let menu = document.querySelector(".mainMenu");
     menu.classList.toggle('toggleCls');
