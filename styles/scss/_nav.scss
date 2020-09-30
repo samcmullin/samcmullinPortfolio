@@ -9,13 +9,14 @@
     align-items: center;
 
     li {
-        
-        font-size: 1.5rem; 
+
+        font-size: 1.5rem;
         display: inline;
-        
+
         a {
             transition: color 0.3s ease-in-out;
             padding: 15px;
+
             &:hover,
             &:focus {
                 -webkit-transition: color 0.3s ease-in-out;
@@ -23,10 +24,16 @@
                 -o-transition: color 0.3s ease-in-out;
                 -ms-transition: color 0.3s ease-in-out;
                 transition: color 0.3s ease-in-out;
-                color:#D64933;
-            }  
+                color: #D64933;
+            }
         }
-    
+
     }
 }
 
+.hamIcon {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    cursor: pointer;
+}

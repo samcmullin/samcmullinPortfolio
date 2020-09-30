@@ -45,14 +45,17 @@
         <div class="wrapper">
             <!-- BEGIN nav -->
             <nav class="siteTitle">
-
                 <h3>sm.</h3>
-                <ul>
+                <div class="hamIcon" onclick="toggleClass()">
+                    <h1>&#9776;</h1>
+                </div>
+                <ul class="mainMenu">
                     <li><a href="#about">about</a></li>
                     <li><a href="#skills">skills</a></li>
                     <li><a href="#work">work</a></li>
                     <li><a href="#contact">contact</a></li>
                 </ul>
+
 
             </nav>
             <!-- END nav-->
@@ -298,12 +301,6 @@
 
                     <button type="submit" class="sendForm" target="_blank" form="contactForm">SEND</button>
 
-                    <!-- calendly booking link container
-                    <div class="calendlyContainer">
-                        <h2>...or book an appointment.</h2>
-                        <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/stephen-mcmullin/30min'});return false;"><span aria-hidden="true" class="far fa-calendar-alt"></span></a>
-                    </div> -->
-
                 </div>
                 <!-- END wrapper -->
             </div>
@@ -341,8 +338,6 @@
         <!-- END footer -->
     </footer>
 
-    <!-- Calendly widget JavaScript library -->
-    <!-- <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script> -->
     <!-- LOAD jquery 3.4.0 -->
     <script src='https://code.jquery.com/jquery-3.4.0.min.js'
         integrity='sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=' crossorigin='anonymous'></script>

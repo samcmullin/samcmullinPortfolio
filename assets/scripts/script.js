@@ -8,5 +8,11 @@ $(function() {
             scrollTop: $($.attr(this, 'href')).offset().top
         }, 1000);
     });
+
+    
 })
 
+function toggleClass() {
+    let menu = document.querySelector(".mainMenu");
+    menu.classList.toggle('toggleCls');
+}

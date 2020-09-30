@@ -20,6 +20,7 @@ $skillsColor: #D64933;
 $workColor: #fff;
 $contactColor: #ECECEC;
 $footerColor: #fff;
+$hamburgerColor: #ECECEC;
 
 /***************/
 
@@ -34,6 +35,15 @@ $footerColor: #fff;
 // Lato
 // - Light 300
 // - Regular 400
-$headerFont: 'Roboto', 'Arial', sans-serif;
-$bodyFont: 'Lato', 'Arial', sans-serif; 
+$headerFont: 'Roboto',
+'Arial',
+sans-serif;
+$bodyFont: 'Lato',
+'Arial',
+sans-serif;
 
+:root {
+    --primary-color: rgba(13, 110, 139, 0.75);
+    --overlay-color: rgba(24, 39, 51, 0.85);
+    --menu-speed: 0.75s;
+}
