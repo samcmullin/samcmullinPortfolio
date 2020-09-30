@@ -331,7 +331,7 @@ p {
   font-size: 1.7rem;
   font-family: "Lato", "Arial", sans-serif;
   font-weight: 300;
-  letter-spacing: 2px;
+  letter-spacing: 0.8px;
   line-height: 22px;
 }
 
@@ -781,7 +781,8 @@ footer p {
   ul.mainMenu {
     display: none;
     background-color: #ECECEC;
-    padding-top: -50px;
+    margin-top: -20px;
+    padding: 20px 0;
   }
   ul.mainMenu li:not(:first-child) {
     margin-top: 30px;
@@ -806,6 +807,9 @@ footer p {
     position: absolute;
     top: 20px;
     right: 100px;
+  }
+  .mainMenu.toggleCls a {
+    font-size: 2rem;
   }
 }
 

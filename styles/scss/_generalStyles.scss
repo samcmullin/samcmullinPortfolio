@@ -1,5 +1,7 @@
 // Debugging style
-// * { border: 1px solid red; }
+// * {
+//     border: 1px solid red;
+// }
 
 /* web site wrapper */
 .wrapper {
@@ -87,8 +89,6 @@ p {
     font-size: 1.7rem;
     font-family: $bodyFont;
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 0.8px;
     line-height: 22px;
 }
-
-

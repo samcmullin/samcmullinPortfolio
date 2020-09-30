@@ -88,8 +88,8 @@
     ul.mainMenu {
         display: none;
         background-color: $hamburgerColor;
-        padding-top: -50px;
-
+        margin-top: -20px;
+        padding: 20px 0;
 
         li:not(:first-child) {
             margin-top: 30px;
@@ -114,6 +114,10 @@
         position: absolute;
         top: 20px;
         right: 100px;
+
+        a {
+            font-size: 2rem;
+        }
     }
 
 }
