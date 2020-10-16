@@ -36,7 +36,7 @@
     background-color: $skillsColor;
     color: #fff;
     
-    h1 {
+    h2 {
         padding-top: 30px;
         margin-bottom: 50px;
     }
@@ -71,7 +71,7 @@
 
 .myWork {
     background-color: $workColor;
-    margin-top: 30px;
+    padding-top: 30px;
     
     .card {
         display: flex;

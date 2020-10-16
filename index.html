@@ -30,7 +30,6 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/devicons@1.8.0/css/devicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6eb9b72fe3.js" crossorigin="anonymous"></script>
 
 </head>
@@ -47,7 +46,7 @@
             <nav class="siteTitle">
                 <h3>sm.</h3>
                 <div class="hamIcon" onclick="toggleClass()">
-                    <h1>&#9776;</h1>
+                    <h2>&#9776;</h2>
                 </div>
                 <ul class="mainMenu" onclick="toggleClass()">
                     <li><a href="#about">about</a></li>
@@ -55,7 +54,6 @@
                     <li><a href="#work">work</a></li>
                     <li><a href="#contact">contact</a></li>
                 </ul>
-
 
             </nav>
             <!-- END nav-->
@@ -74,7 +72,7 @@
         <!-- BEGIN wrapper and section about me -->
         <section class="wrapper aboutMe" id="about">
 
-            <h1 data-aos="fade-right">about me.</h1>
+            <h2 data-aos="fade-right">about me.</h2>
             <div class="aboutContainer">
 
                 <!-- about image container -->
@@ -101,7 +99,7 @@
             <div class="wrapper">
 
                 <div>
-                    <h1 data-aos="fade-right">skills.</h1>
+                    <h2 data-aos="fade-right">skills.</h2>
                 </div>
 
                 <!-- skill icon container -->
@@ -174,100 +172,104 @@
         </section>
 
         <!-- BEGIN wrapper and section portfolio -->
-        <section class="wrapper myWork" id="work">
-            <h1 data-aos="fade-right">my work.</h1>
+        <section class="myWork" id="work">
+            <div class="wrapper">
 
-            <!-- container for portfolio item -->
-            <div class="card" data-aos="fade-up">
-                <!-- portfolio image container -->
-                <div class="portfolioImage">
-                    <img src="assets/images/projectFiveNewsInquiry.jpg"
-                        alt="Project five screenshot of the news inquiry app">
-                </div>
 
-                <!-- portfolio description container -->
-                <div class="portfolioDescription">
-                    <h2>The News Inquiry Box</h2>
-                    <p>REACT | JAVASCRIPT | SASS | NEWS API</p>
-                    <p>Using the News API, this app shows news articles based on what is input into the search field.
-                        Using React, the user's input is passed to the News API and a list of related keyword articles
-                        are displayed.</p>
-
-                    <div class="projectLinks">
-                        <a href="https://github.com/samcmullin/stephenMcMullinProjectFive" target="_blank">GITHUB</a>
-
-                        <a href="https://samcmullin.github.io/stephenMcMullinProjectFive/" target="_blank">LIVE</a>
+                <h2 data-aos="fade-right">my work.</h2>
+    
+                <!-- container for portfolio item -->
+                <div class="card" data-aos="fade-up">
+                    <!-- portfolio image container -->
+                    <div class="portfolioImage">
+                        <img src="assets/images/projectFiveNewsInquiry.jpg"
+                            alt="Project five screenshot of the news inquiry app">
                     </div>
-
-                </div>
-            </div>
-
-            <!-- container for portfolio item -->
-            <div class="card" data-aos="fade-up">
-                <!-- portfolio image container -->
-                <div class="portfolioImage">
-                    <img src="assets/images/projectFourCocktailTime.jpg"
-                        alt="Project four screenshot of it's cocktail time">
-                </div>
-
-                <!-- portfolio description container -->
-                <div class="portfolioDescription">
-                    <h2>It's Cocktail Time! </h2>
-                    <p>JQUERY | JAVASCRIPT | SASS | COCKTAIL API</p>
-                    <p>Looking for a random cocktail? It's Cocktail Time was built in collaboration with a partner and
-                        an API/Ajax call is made to a cocktail database based on the user's selection of alcohol type.
-                        Once the API call is complete, the drinks are stored in an array of objects, and a random drink
-                        will be displayed to the user based on their alcohol choice!</p>
-
-                    <div class="projectLinks">
-                        <a href="https://github.com/ItsCocktailTime/stephenMcMullinRyanShaoProjectFour"
-                            target="_blank">GITHUB</a>
-                        <a href="https://madebystephen.ca/stephenMcMullinRyanShaoProjectFour/" target="_blank">LIVE</a>
+    
+                    <!-- portfolio description container -->
+                    <div class="portfolioDescription">
+                        <h3>The News Inquiry Box</h3>
+                        <p>REACT | JAVASCRIPT | SASS | NEWS API</p>
+                        <p>Using the News API, this app shows news articles based on what is input into the search field.
+                            Using React, the user's input is passed to the News API and a list of related keyword articles
+                            are displayed.</p>
+    
+                        <div class="projectLinks">
+                            <a href="https://github.com/samcmullin/stephenMcMullinProjectFive" target="_blank">GITHUB</a>
+    
+                            <a href="https://samcmullin.github.io/stephenMcMullinProjectFive/" target="_blank">LIVE</a>
+                        </div>
+    
                     </div>
-
                 </div>
-            </div>
-
-            <!-- container for portfolio item -->
-            <div class="card" data-aos="fade-up">
-                <!-- portfolio image container -->
-                <div class="portfolioImage">
-                    <img src="assets/images/projectThreeSlideshow.jpg" alt="Project three slideshow app screenshot">
-                </div>
-
-                <!-- portfolio description container -->
-                <div class="portfolioDescription">
-                    <h2>Load Slideshow</h2>
-                    <p>JQUERY | JAVASCRIPT | SASS</p>
-                    <p>This slideshow was built using Jquery. The user can select a type of slide show they want to
-                        view, and once selected the images will load from an array of objects and display to the user.
-                    </p>
-
-                    <div class="projectLinks">
-                        <a href="https://github.com/samcmullin/stephenMcMullinProjectThree" target="_blank">GITHUB</a>
-                        <a href="https://madebystephen.ca/stephenMcMullinProjectThree/" target="_blank">LIVE</a>
+    
+                <!-- container for portfolio item -->
+                <div class="card" data-aos="fade-up">
+                    <!-- portfolio image container -->
+                    <div class="portfolioImage">
+                        <img src="assets/images/projectFourCocktailTime.jpg"
+                            alt="Project four screenshot of it's cocktail time">
                     </div>
-
+    
+                    <!-- portfolio description container -->
+                    <div class="portfolioDescription">
+                        <h3>It's Cocktail Time! </h3>
+                        <p>JQUERY | JAVASCRIPT | SASS | COCKTAIL API</p>
+                        <p>Looking for a random cocktail? It's Cocktail Time was built in collaboration with a partner and
+                            an API/Ajax call is made to a cocktail database based on the user's selection of alcohol type.
+                            Once the API call is complete, the drinks are stored in an array of objects, and a random drink
+                            will be displayed to the user based on their alcohol choice!</p>
+    
+                        <div class="projectLinks">
+                            <a href="https://github.com/ItsCocktailTime/stephenMcMullinRyanShaoProjectFour"
+                                target="_blank">GITHUB</a>
+                            <a href="https://madebystephen.ca/stephenMcMullinRyanShaoProjectFour/" target="_blank">LIVE</a>
+                        </div>
+    
+                    </div>
                 </div>
-            </div>
-
-            <!-- container for portfolio item -->
-            <div class="card" data-aos="fade-up">
-                <!-- portfolio image container -->
-                <div class="portfolioImage">
-                    <img src="assets/images/projectTwoSanctuary.jpg"
-                        alt="Project two screenshot of a responsive psd conversion web site">
+    
+                <!-- container for portfolio item -->
+                <div class="card" data-aos="fade-up">
+                    <!-- portfolio image container -->
+                    <div class="portfolioImage">
+                        <img src="assets/images/projectThreeSlideshow.jpg" alt="Project three slideshow app screenshot">
+                    </div>
+    
+                    <!-- portfolio description container -->
+                    <div class="portfolioDescription">
+                        <h3>Load Slideshow</h3>
+                        <p>JQUERY | JAVASCRIPT | SASS</p>
+                        <p>This slideshow was built using Jquery. The user can select a type of slide show they want to
+                            view, and once selected the images will load from an array of objects and display to the user.
+                        </p>
+    
+                        <div class="projectLinks">
+                            <a href="https://github.com/samcmullin/stephenMcMullinProjectThree" target="_blank">GITHUB</a>
+                            <a href="https://madebystephen.ca/stephenMcMullinProjectThree/" target="_blank">LIVE</a>
+                        </div>
+    
+                    </div>
                 </div>
-
-                <!-- portfolio description container -->
-                <div class="portfolioDescription">
-                    <h2>Sanctuary Helpers</h2>
-                    <p>HTML5 | SASS</p>
-                    <p>A PSD conversion using HTML and SASS following a style guide.</p>
-
-                    <div class="projectLinks">
-                        <a href="https://github.com/samcmullin/stephenMcMullinProjectTwo" target="_blank">GITHUB</a>
-                        <a href="https://madebystephen.ca/stephenMcMullinProjectTwo/" target="_blank">LIVE</a>
+    
+                <!-- container for portfolio item -->
+                <div class="card" data-aos="fade-up">
+                    <!-- portfolio image container -->
+                    <div class="portfolioImage">
+                        <img src="assets/images/projectTwoSanctuary.jpg"
+                            alt="Project two screenshot of a responsive psd conversion web site">
+                    </div>
+    
+                    <!-- portfolio description container -->
+                    <div class="portfolioDescription">
+                        <h3>Sanctuary Helpers</h3>
+                        <p>HTML5 | SASS</p>
+                        <p>A PSD conversion using HTML and SASS following a style guide.</p>
+    
+                        <div class="projectLinks">
+                            <a href="https://github.com/samcmullin/stephenMcMullinProjectTwo" target="_blank">GITHUB</a>
+                            <a href="https://madebystephen.ca/stephenMcMullinProjectTwo/" target="_blank">LIVE</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -281,7 +283,7 @@
 
                 <!-- contact form container -->
                 <div data-aos="fade-up">
-                    <h1 data-aos="fade-right">let's talk.</h1>
+                    <h2 data-aos="fade-right">let's talk.</h2>
 
                     <!-- form container for formspree -->
                     <form id="contactForm" action="https://formspree.io/xeqrwydz" method="POST">

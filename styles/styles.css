@@ -313,13 +313,14 @@ h1 {
 
 h2 {
   font-family: "Roboto", "Arial", sans-serif;
-  font-size: 4rem;
+  font-size: 3.8rem;
   font-weight: 400;
 }
 
 h3 {
   font-family: "Roboto", "Arial", sans-serif;
-  font-size: 3.5rem;
+  font-size: 3.2rem;
+  font-weight: 400;
 }
 
 form {
@@ -453,7 +454,7 @@ header .headerContent p {
   color: #fff;
 }
 
-.skillSet h1 {
+.skillSet h2 {
   padding-top: 30px;
   margin-bottom: 50px;
 }
@@ -489,8 +490,8 @@ header .headerContent p {
 *  Work Section Styles
 ****************************/
 .myWork {
-  background-color: #fff;
-  margin-top: 30px;
+  background-color: #ECECEC;
+  padding-top: 30px;
 }
 
 .myWork .card {
